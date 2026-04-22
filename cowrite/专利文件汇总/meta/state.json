@@ -3,8 +3,8 @@
   "sourceMode": "path",
   "sourceValue": "/workspace/专利文件.xlsx",
   "sourceFile": "source/专利文件.xlsx",
-  "currentVersion": 2,
-  "currentDraft": "drafts/专利文件汇总.v2.md",
+  "currentVersion": 3,
+  "currentDraft": "drafts/专利文件汇总.v3.md",
   "authMode": "nologin",
-  "changeSummary": "DMV-091法律状态改为授权；受理局覆盖改为40+国家地区"
+  "changeSummary": "总专利数更新为685条，产品数更新为136个"
 }
