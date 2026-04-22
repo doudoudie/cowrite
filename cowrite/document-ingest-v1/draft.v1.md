@@ -1,0 +1,7 @@
+# Document document-ingest-v1
+
+> 来源文件：`original.md`
+
+## 初始说明
+
+请基于来源文件继续整理、总结或扩写。
