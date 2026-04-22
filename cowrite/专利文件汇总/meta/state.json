@@ -1,0 +1,10 @@
+{
+  "docId": "专利文件汇总",
+  "sourceMode": "path",
+  "sourceValue": "/workspace/专利文件.xlsx",
+  "sourceFile": "source/专利文件.xlsx",
+  "currentVersion": 2,
+  "currentDraft": "drafts/draft.v2.md",
+  "authMode": "nologin",
+  "changeSummary": "DMV-091法律状态改为授权；受理局覆盖改为40+国家地区"
+}
