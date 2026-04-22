@@ -48,5 +48,13 @@ https://raw.githubusercontent.com/doudoudie/cowrite/v1.0.1/cowrite/document-inge
 3. 重启 Gateway 使技能生效（不重启也可直接调用脚本使用）
 
 ## 涉及的 API
-- 知识库上传：https://sg-al-cwork-web.mediportal.com.cn/open-api/document-database/file/uploadContent
-- Cowrite ingest：https://sg-al-cwork-web.mediportal.com.cn/open-api/cowrite/ingest/document
+
+### 知识库上传
+- 地址：https://sg-al-cwork-web.mediportal.com.cn/open-api/document-database/file/uploadContent
+- 方式：HTTP POST + appKey 鉴权
+- 参数：content, fileName, fileSuffix, folderName
+
+### Cowrite ingest
+- 方式：直接调用本地脚本 `ingest_document.py`（不经过 HTTP API）
+- 脚本路径：`~/.openclaw/skills/cms-cowrite-ingest-document/scripts/document/ingest_document.py`
+- 效果：写入 workspace 目录（`cowrite/<doc_id>/`）
